@@ -20,6 +20,8 @@ export default {
       },
       this.$refs.viewer
     ).then((instance) => {
+      instance.UI.setLanguage("zh_cn");
+
       // now you can access APIs through the WebViewer instance
       const { Core, UI } = instance;
       // instance.UI.setLanguage('../../public/lib/ui/i18n/translation-zh_cn.json');
