@@ -15,8 +15,8 @@ export default {
     WebViewer(
       {
         path: this.path,
-        initialDoc: `https://hpread.xhwxpos.com/uploads/20211022/38676e9236fa6656ac59eb3cf3427862.pdf`,
-        licenseKey: 'sqVmw9Ab5HE9jNTYSwPJ',
+        initialDoc: window.$$file,
+        licenseKey: "sqVmw9Ab5HE9jNTYSwPJ",
       },
       this.$refs.viewer
     ).then((instance) => {

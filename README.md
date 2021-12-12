@@ -38,7 +38,6 @@ npm run lint
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
 ### 链接上加file=您的pdf链接 下边这段代码请放在打包后的index.html head里。
-### 在把window.$$file 值确定下在不在app.js里
     https://hpread.xhwxpos.com/newpdf/index.html?file=https://hpread.xhwxpos.com/uploads/20211022/38676e9236fa6656ac59eb3cf3427862.pdf
     
     <script>
