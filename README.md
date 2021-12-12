@@ -45,3 +45,4 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
         var file = params.get('file');
         window.$$file = file
     </script>
+    官方文档API https://pdfjs.express/documentation/basic-operations/open-document/url
